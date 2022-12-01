@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Solsystemet</title>
+    <script src="js/index.js" type="module" defer></script>
+</head>
+<body>
+    <figure class="bg-animation">
+        <figure id="stars-small"></figure>
+        <figure id="stars-medium"></figure>
+        <figure id="stars-tiny"></figure>
+    </figure>
+    <figure id="loading">
+        <span class="loader"></span>
+    </figure>
+    <section class="planets-container">
+        <header>
+            <h1>Solsystemet</h1>
+            <h2>Solaris</h2>
+        </header>
+        <figure id="planets">
+        </figure>
+    </section>
+    <section class="planet-info">
+        <figure id="planet"></figure>
+        <article class="planet-container">
+            <figure id="close-info">
+                <figure></figure>
+                <figure></figure>
+            </figure>
+            <h1 id="planet-name"></h1>
+            <h2 id="planet-latin"></h2>
+            <p id="planet-desc"></p>
+            <hr />
+            <article>
+                <aside>
+                    <b>Omkrets</b>
+                    <p id="planet-circumference"></p>
+                </aside>
+                <aside>
+                    <b>KM från solen</b>
+                    <p id="planet-distance"></p>
+                </aside>
+                <aside>
+                    <b>Max temperatur</b>
+                    <p id="planet-maxTemp"></p>
+                </aside>
+                <aside>
+                    <b>Min temperatur</b>
+                    <p id="planet-minTemp"></p>
+                </aside>
+            </article>
+            <hr id="planet-bottom-hr" />
+            <b id="planet-mooons-title"></b>
+            <aside id="planet-moons"></aside>
+        </article>
+    </section>
+</body>
+</html>

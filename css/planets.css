@@ -1,0 +1,128 @@
+#planets .allPlanets {
+    z-index: 3;
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+#planets .allPlanets:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+
+#planets .planet0 {
+    height: 1278px;
+    width: 1278px;
+    left: -1030px;
+    margin-right: -1030px;
+}
+
+.planet0 {
+    background: #FFD029;
+    box-shadow: 0px 0px 250px rgba(255, 208, 41, 0.2);
+}
+
+#planets .planet0:hover {
+    transform: scale(1.02);
+}
+
+#planets .planet1 {
+    height: 14px;
+    width: 14px;
+}
+
+.planet1 {
+    background: #888888;
+    box-shadow: 0px 0px 250px #88888825;
+}
+
+#planets .planet2 {
+    height: 26px;
+    width: 26px;
+}
+
+.planet2 {
+    background: #E7CDCD;
+    box-shadow: 0px 0px 250px #e7cdcd31;
+}
+
+
+#planets .planet3 {
+    height: 28px;
+    width: 28px;
+}
+
+.planet3 {
+    background: #428ED5;
+    box-shadow: 0px 0px 250px #428ed535;
+}
+
+#planets .planet4 {
+    height: 14px;
+    width: 14px;
+}
+
+.planet4 {
+    background: #EF5F5F;
+    box-shadow: 0px 0px 250px #ef5f5f29;
+}
+
+#planets .planet5 {
+    height: 188px;
+    width: 188px;
+}
+
+.planet5 {
+    background: #E29468;
+    box-shadow: 0px 0px 250px #e2956829;
+}
+
+#planets .planet6 {
+    height: 144px;
+    width: 144px;
+}
+
+.planet6 {
+    background: #C7AA72;
+    box-shadow: 0px 0px 250px #c7ab722c;
+}
+
+#planets .planet6:after {
+    content: '';
+    position: absolute;
+    width: 218px;
+    height: 5.5px;
+    top: 50%;
+    left: calc(50% - 110px);
+
+    background: rgba(255, 255, 255, 0.4);
+    transform: rotate(-30deg);
+    border-radius: 50%;
+}
+
+#planets .planet7 {
+    height: 66px;
+    width: 66px;
+}
+
+.planet7 {
+    background: #C9D4F1;
+    box-shadow: 0px 0px 250px #c9d4f130;
+}
+
+#planets .planet8 {
+    height: 66px;
+    width: 66px;
+}
+
+.planet8 {
+    background: #7A91A7;
+    box-shadow: 0px 0px 250px #7a91a725;
+}
+
+#planets {
+    transform: scale(1.2);
+    z-index: 10;
+}
